@@ -10,5 +10,5 @@ function marginRight(){
 
 var img=document.getElementById('madi');
 img.onlick=function(){
-    var interval=setInterval(marginRight,50)
+    var interval=setInterval(marginRight,50);
 };
