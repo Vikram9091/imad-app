@@ -1,7 +1,7 @@
 console.log('Loaded!');
 var element=document.getElementById('main-text');
 
-element.innerHTML('WELCOME!!');
+element.innerHTML='WELCOME!!';
   var marginleft=0;
 function marginRight(){
     marginleft=marginleft+5;
