@@ -21,6 +21,9 @@ app.get('/article-two',function(req,res){
 app.get('/article-three',function(req,res){
    res.send('article three is created and will be served'); 
 });
+app.get('/ui/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+  
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
