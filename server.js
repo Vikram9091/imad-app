@@ -17,6 +17,12 @@ app.get('/counter',function(req,res){
   counter=counter+1;
   res.send(counter.toString());
 });
+ var names=[];
+  app.get('/submit-name/:name',function(req,res){
+      var name=req.params.name;
+      names.push(name);
+      res.send(JSON.stringify(name));
+  });
 app.get('/article-one',function(req,res){
    res.send('article one is created and will be served'); 
 });
