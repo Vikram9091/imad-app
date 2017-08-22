@@ -36,7 +36,7 @@ submit.onclick=function(){
 };
     var nameInput=document.getElementById('name');
     var name=nameInput.value;
-    request.open('GET', 'http://viky7star.imad.hasura-app.io/submit-name?name='+name,true);
+    request.open('GET', 'http://viky7star.imad.hasura-app.io/submit-name?name='+names,true);
     request.send(null);
 };
 
